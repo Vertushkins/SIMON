@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="title">SIMON</div>
+  <div id="container">
+    <div id="panel">
+      <div class="color-button" id="green"></div>
+      <div class="color-button" id="red"></div>
+      <div class="color-button" id="yellow"></div>
+      <div class="color-button" id="blue"></div>
+      <div id="circle">
+        <div id="info">
+          <div class="display" id="time">
+            <div class="number" id="seconds-digit-second">0</div>
+            <div class="number" id="seconds-digit-first">0</div>
+            <div>:</div>
+            <div class="number" id="centiseconds-digit-second">0</div>
+            <div class="number" id="centiseconds-digit-first">0</div>
+          </div>
+          <div class="display" id="round">
+            <div class="number" id="round-digit-second">0</div>
+            <div class="number" id="round-digit-first">0</div>
+          </div>
+          <div class="lamp" id="green-lamp"></div>
+          <div class="display" id="start">START</div>
+          <div class="lamp" id="red-lamp"></div>
+        </div>
+      </div>
+    </div>
+    <div id="leaders">
+      <div id="leaders-title">Leaders</div>
+      <div id="leaders-table">
+        <img src="img/builder.png" width="80">
+        <span>in development...</span>
+      </div>
+    </div>
+  </div>
+  <script src="js/constants.js"></script>
+  <script src="js/Round.js"></script>
+  <script src="js/Timer.js"></script>
+  <script src="js/Color_button.js"></script>
+  <script src="js/Panel.js"></script>
+  <script src="js/Game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
